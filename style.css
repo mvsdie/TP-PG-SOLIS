@@ -1,0 +1,157 @@
+body {
+    background-color: #121212; 
+    color: #e0e0e0;           
+    font-family: 'Georgia', serif; 
+    margin: 0;
+    line-height: 1.6;
+}
+
+.header-principal {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid #000;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-cronica { background-image: url('img/escena_noir.jpg'); }
+.header-circulo { background-image: url('img/noir.jpg'); }
+.header-legado { background-image: url('img/vampironegro_escena.jpg'); }
+
+.overlay-oscuridad {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav a:hover { color: #fff; }
+
+/*Flexbox para las tarjetas del index */
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.tarjeta {
+    background-color: #1e1e1e;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.tarjeta img {
+    height: 350px;
+    width: 100%;
+    object-fit: contain;
+    background-color: #1e1e1e;
+}
+
+/*Flexbox para el contacto (2 columnas) */
+.contenedor-contacto {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 40px;
+    text-align: left;
+}
+
+.formulario-contacto {
+    flex: 1;
+    max-width: 450px;
+    text-align: right;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+/* Footer clásico */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #333;
+    font-style: italic;
+    color: #777;
+}
+
+.boton-ver {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #3a3838; 
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #777;
+    transition: background 0.3s;
+}
+
+.boton-ver:hover {
+    background-color: #888; 
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #333;        
+    color: #d1d1d1;                
+    padding: 9px 18px;
+    border: 1px solid #555;        
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    transition: all 0.3s ease;     
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Efecto al pasar el mouse */
+button[type="submit"]:hover {
+    background-color: #000;        
+    color: #fff;                   
+    border-color: #777;            
+}
+
+.contenedor-contacto {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;      
+    gap: 40px;
+    padding: 40px 20px;
+}
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.acerca-contenido {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+
+
